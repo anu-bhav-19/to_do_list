@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+     font-weight: 470;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.continer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input_continer{
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;   
+}
+.input_continer input{
+
+    margin-block: 12px;
+    padding:12px;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.input_continer input[type=text]{
+
+    width: 70%;
+
+}
+
+.input_continer input[type=button]{
+
+    background-color: #3da33d;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 13px 20px;
+    margin:5px;
+
+
+}
+
+.input_continer input[type=button]:hover{
+    background-color: #51c651;
+}
+
+ul {
+   
+     width:100%;
+     max-width: 450 px;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+}
+
+ul li{
+
+    list-style-type: none;
+    border: 0.5px solid ;
+    border-radius: 5px;
+    margin-block-end: 10px;
+    padding:6px 12px;
+    background-color: #fff;
+    
+
+}
